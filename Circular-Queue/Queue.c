@@ -84,7 +84,7 @@ int peek(Queue *queue){
     return -1;
   }
   else{
-    return queue->data[queue->rear];
+    return queue->data[queue->front];
   }
 
 }
